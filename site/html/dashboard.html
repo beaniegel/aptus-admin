@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-GB" xml:lang="en-GB">
+<!--<html lang="en">-->
+  <head>
+    <meta charset="UTF-8"/>
+    <title>Dashboard</title>
+    <meta name="viewpoint" content="width-device-width, initial-scale=1"/>
+    <link rel="stylesheet" href="/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="/css/custom.css"/>
+    <link rel="shortcut icon" type="image/png" href="/css/favicon.png"/>
+    <script src="/js/jquery-3.2.1.slim.min.js" defer = "defer"></script>
+    <script src="/js/popper.min.js" defer = "defer"></script>
+    <script src="/js/bootstrap.min.js" defer = "defer"></script>
+    <script src="/js/dashboard.js" defer = "defer"></script>
+  </head>
+
+  <body>
+    <header>
+      <div class="container-fluid">
+        <div class="row headpic padding-sm">
+          <div class="mx-auto">
+            <img class="logo" src="css/aptuswhite2.png"/>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="container-fluid">
+        <div class="row padding-lg">
+          <div class="mx-auto">
+            <img class="title-img" src="/css/d.png">
+            <span class="title"> ASHBOARD</span>
+          </div>
+        </div>
+        <div class="row padding-lg">
+          <div class="col-md-6 offset-md-2 allign-w-table">
+            <form id ="searchForm" class="form-inline col-sm-10">
+              <input id ="searchInput" class="form-control mr-sm-1 col-sm-8" type="search" placeholder="Search" aria-label="Search"/>
+              <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Search</button>
+            </form>
+          </div>
+          <div class="col-md-2">
+            <button type="button" id="nsbtn" class="btn btn-outline-primary float-right">Create new website</button>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-8 offset-md-2">
+            <div class="table table-striped table-responsive">
+              <table id ="clienttable" class="table">
+                <thead>
+                  <tr>
+                    <th data-field="id">ID</th>
+                    <th data-field="domain">Website</th>
+                    <th data-field="name">Company</th>
+                    <th data-field="email">Contact</th>
+                  </tr>
+                </thead>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footpic pt-1 mt-1">
+      <div class="container-fluid text-center">
+        <p>Webtech project completed by Jelena Noya & Anastasiia Petrovskaia</p>
+      </div>
+      <div class="footer-copyright py-2 text-center">
+        © 2018 UoB
+      </div>
+    </footer>
+  </body>
+</html>

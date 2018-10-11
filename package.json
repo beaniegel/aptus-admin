@@ -1,0 +1,19 @@
+{
+  "name": "webtech",
+  "version": "1.0.0",
+  "description": "webtech npm module",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "sqlite3": "^4.0.0"
+  },
+  "devDependencies": {
+    "vnu-jar": "^17.11.1"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "author": "",
+  "license": "ISC"
+}

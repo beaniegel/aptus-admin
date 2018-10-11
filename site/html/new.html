@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-GB" xml:lang="en-GB">
+
+  <head>
+    <meta charset="UTF-8"/>
+    <title>Wizard</title>
+    <meta name="viewpoint" content="width-device-width, initial-scale=1"/>
+    <link rel="stylesheet" href="/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="/css/custom.css"/>
+    <link rel="shortcut icon" type="image/png" href="/css/favicon.png"/>
+    <script src="/js/jquery-3.2.1.slim.min.js" defer = "defer"></script>
+    <script src="/js/popper.min.js" defer = "defer"></script>
+    <script src="/js/bootstrap.min.js" defer = "defer"></script>
+    <script src="/js/newcl.js" defer = "defer"></script>
+  </head>
+
+  <body>
+    <header>
+      <div class="container-fluid">
+        <div class="row headpic padding-sm">
+          <div class="mx-auto">
+            <img class="logo" src="../../css/aptuswhite2.png"></img>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="container-fluid">
+        <div class="row padding-lg">
+          <div class="mx-auto">
+            <img class="title-img" src="../../css/logo.png">
+            <span class="title"> DD NEW CLIENT</span>
+          </div>
+        </div>
+        <div class="row wizard">
+          <div class="col-md-8 offset-md-2">
+            <h2>Step 2: Enter client details</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 offset-md-3">
+            <form id = "clientForm" name="client">
+              <div class="form-group">
+                <label for="companyname">Company name *</label>
+                <input type="text" class="form-control" id="companyname" rows="1" placeholder="Company name" required="true"></textarea>
+              </div>
+              <div class="form-group">
+                <label for="contact">Contact person</label>
+                <input type="text" class="form-control" id="contact" rows="1" placeholder="Contact person" ></textarea>
+              </div>
+              <div class="form-group">
+                <label for="email">Email address *</label>
+                <input type="email" class="form-control" id="email" placeholder="contact@company.com" required="true"/>
+              </div>
+              <div class="form-group">
+                <label for="phone">Company phone</label>
+                <input type="text" class="form-control" id="phone" rows="1" placeholder="+XX-XXX-XXX-XX-XX" ></textarea>
+              </div>
+              <div>
+                <button type="submit" class="btn btn-primary">Next</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footpic pt-1 mt-1">
+      <div class="container-fluid text-center ">
+        <p>Webtech project completed by Jelena Noya & Anastasiia Petrovskaia</p>
+      </div>
+      <div class="footer-copyright py-1 text-center">
+        © 2018 UoB
+      </div>
+    </footer>
+  </body>
+</html>

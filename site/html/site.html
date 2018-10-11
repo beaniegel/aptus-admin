@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-GB" xml:lang="en-GB">
+<!--<html lang="en">-->
+  <head>
+    <meta charset="UTF-8"/>
+    <title>Wizard</title>
+    <meta name="viewpoint" content="width-device-width, initial-scale=1"/>
+    <link rel="stylesheet" href="/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="/css/custom.css"/>
+    <link rel="shortcut icon" type="image/png" href="/css/favicon.png"/>
+    <script src="/js/jquery-3.2.1.slim.min.js" defer = "defer"></script>
+    <script src="/js/popper.min.js" defer = "defer"></script>
+    <script src="/js/bootstrap.min.js" defer = "defer"></script>
+    <script src="/js/site.js" defer = "defer"></script>
+
+  </head>
+
+  <body>
+    <header>
+      <div class="container-fluid">
+        <div class="row headpic padding-sm">
+          <div class="mx-auto">
+            <img class="logo" src="../../css/aptuswhite2.png"></img>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="container-fluid">
+        <div class="row padding-lg">
+          <div class="mx-auto">
+            <img class="title-img" src="../../css/logo.png">
+            <span class="title"> DD DOMAIN</span>
+          </div>
+        </div>
+        <div class="row wizard">
+            <div class="col-md-12 offset-md-2">
+              <h2>Step 3: Add domain name</h2>
+            </div>
+        </div>
+      </div>
+      <div class="row">
+          <div class="col-md-8 offset-md-2">
+            <nav aria-label="...">
+              <ul class="pagination">
+                <li class="page-item ">
+                  <a class="page-link" id="prevbtn" href="#" tabindex="-1">Previous</a>
+                </li>
+                <li class="page-item ">
+                  <a class="page-link" id = "prev1" href="#">1</a>
+                </li>
+                <li class="page-item active">
+                  <a class="page-link" href="#">2
+                    <span class="sr-only">(current)</span>
+                  </a>
+                </li>
+                <li class="page-item disabled">
+                  <a class="page-link" href="#">Next</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+
+          <div class="col-md-8 offset-md-2">
+            <h3>New site info</h3>
+            <form id = "siteForm" name="site">
+              <div class="form-group">
+                <label for="domainname">Domain name</label>
+                <select class="form-control" id="domainname" placeholder = "domainname.domain">
+                  <option>New domain</option>
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="password">Password</label>
+                <input type = "password" class="form-control" id="password" placeholder="New password"/>
+              </div>
+              <div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </div>
+
+            </form>
+
+          </div>
+      </div>
+    </div>
+  </main>
+
+ <footer class="footpic pt-1 mt-1">
+    <div class="container-fluid text-center">
+      <p>Webtech project completed by Jelena Noya & Anastasiia Petrovskaia</p>
+    </div>
+    <div class="footer-copyright py-2 text-center">
+      © 2018 UoB
+    </div>
+  </footer>
+    </body>
+</html>

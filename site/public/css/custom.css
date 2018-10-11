@@ -1,0 +1,202 @@
+body {
+  background-color: #ffffff;
+  position: relative;
+}
+
+h1 {
+  opacity: 1;
+  margin-top: 15px;
+  vertical-align: text-bottom;
+}
+
+.title-img {
+  height:   70px;
+  vertical-align: top;
+  margin-top: 10px;
+}
+
+.title {
+  vertical-align: baseline;
+  font-size: 64px;
+  font-stretch: expanded;
+  padding-bottom: 10px
+}
+
+.logo {
+  margin-top: 30px;
+  height: 70px;
+  width: 140px;
+  margin-bottom: 30px;
+}
+
+h2 {
+  margin-top: 8px;
+}
+
+.btn-border {
+  border-radius: 10px;
+  margin-top: 5%;
+}
+
+.btn-login {
+  width: 100%;
+}
+
+.access-btn {
+  width: 100%;
+}
+
+.block-login {
+  border-radius: 50px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  padding:5%;
+  background-color: #ffffff;
+  font-family: Arial,Helvetica,FreeSans,sans-serif;
+}
+
+#bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  attachment: fixed;
+  size: cover;
+}
+
+.bgwidth {
+  width: 100%;
+}
+
+.bgheight {
+  height: 100%;
+}
+
+.box-allign {
+  margin-top: 11px;
+}
+
+.headpic {
+  color: #FFFFFF;
+  background-image: url("IMG_7788cut.png");
+}
+.box {
+  float: left;
+  width: 400px;
+  height: 400px;
+  margin-top: 100px;
+  margin-right: 100px;
+  margin-left: 100px;
+  border-color: #B0E5FF;
+  border-style: solid;
+  border-width: thick;
+  border-radius: 10px;
+}
+
+.oldimg {
+  background-image: url("exiscl-harry.png");
+  width: 400px;
+  height: 400px;
+}
+
+.newimg{
+  background-image: url("newcl-megan.png");
+  width: 400px;
+  height: 400px;
+}
+
+
+.login-page {
+  background-color: #B0E5FF;
+  height: 100%;
+}
+
+.table {
+  background-color: #ffffff;
+}
+
+.hide {
+  display: none;
+}
+
+.pageindex {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  vertical-align: middle;
+}
+
+.middle {
+  vertical-align: middle;
+}
+
+.padding-md {
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.padding-lg {
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.wizard {
+  color: #B0E5FF;
+  background-color:#FFFFFF;
+  border-bottom: 1pt solid;
+  border-top: 1pt solid;
+  border-color: #B0E5FF;
+  margin-bottom: 20px;
+}
+.clear{
+  clear:both;
+}
+
+.header {
+  color: rgba(255,255,255, 1);
+  background-color: rgba(176, 229, 255, 0.6);
+}
+
+header{
+  color: rgba(255,255,255, 1);
+  background-color: rgba(176,229,255, 0.3);
+  font-size: 75%;
+  top: 0;
+  width:100%;
+  position:relative;
+  z-index: 2;
+}
+
+main {
+  padding-bottom: 60px;
+}
+
+ footer {
+  color: rgba(255,255,255, 1);
+  background-color: rgba(176,229,255, 0.3);
+  font-size: 75%;
+  bottom: 0;
+  width:100%;
+  position: fixed;
+  margin-top: auto;
+}
+
+.footpic{
+  color: #FFFFFF;
+  background-image: url("IMG_7788cut2.png");
+}
+
+.allign-w-table {
+  padding: 0%;
+}
+
+.form-inline {
+  padding: 20px;
+}
+.btn-wiz{
+    width: 100%;
+    margin: 5%;
+}
+
+.wizback {
+  margin-top: 5%;
+  border-color: #B0E5FF;
+}
